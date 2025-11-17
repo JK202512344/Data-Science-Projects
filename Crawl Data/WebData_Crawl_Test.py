@@ -9,7 +9,7 @@ import re
 
 # === Proxy Configuration (set these if needed) ===
 USE_PROXY = True  # Set to False if you want to bypass proxy
-PROXY_STRING = 'http://brd-customer-hl_15ca11df-zone-datacenter_proxy2:wc9jrb60kku2@brd.superproxy.io:33335'
+PROXY_STRING = 'http://test_proxy'
 PROXIES = {
     'http': PROXY_STRING,
     'https': PROXY_STRING,
@@ -252,3 +252,4 @@ if __name__ == "__main__":
 
     else:
         print("\nNo recent updates found.")
+
